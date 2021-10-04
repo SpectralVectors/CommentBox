@@ -1,3 +1,13 @@
+bl_info = {
+    'name': 'Comment Box',
+    'category': 'Node',
+    'author': 'Spectral Vectors',
+    'version': (0, 0, 1),
+    'blender': (2, 90, 0),
+    'location': 'Node Editor',
+    "description": "Frames around the selected nodes, requests name and color"
+    }
+
 import bpy
 
 class BLUI_OT_comment_box(bpy.types.Operator):
