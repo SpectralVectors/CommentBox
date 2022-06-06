@@ -11,7 +11,7 @@ bl_info = {
 import bpy
 
 class BLUI_OT_comment_box(bpy.types.Operator):
-    bl_idname = "blui.comment_box"
+    bl_idname = "node.comment_box"
     bl_label = "Comment Box"
     bl_description = "Frames around the selected nodes, requests name and color"
     bl_options = {'REGISTER', 'UNDO'}
